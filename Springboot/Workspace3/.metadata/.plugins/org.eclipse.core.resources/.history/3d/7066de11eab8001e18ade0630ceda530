@@ -1,0 +1,12 @@
+package com.ts;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.dao.DepartmentDao;
+
+public class DepartmentController {
+	
+	@Autowired
+	DepartmentDao departmentDao;
+
+}
